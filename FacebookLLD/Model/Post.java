@@ -1,7 +1,13 @@
+package Model;
+
 import java.sql.Timestamp;
 
 public class Post {
     int postId;
+
+    public Post() {
+    }
+
     String content;
     User postedBy;
     Timestamp timeOfPost;
